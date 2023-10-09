@@ -255,11 +255,9 @@ main section div img {
     background-color: black;
   }
   
-
   main section div {
     color: #F49712;
   }
-  
 
   .box a {
     font-size: 13px;
@@ -278,7 +276,7 @@ main section div img {
     width: 60px;
     height: 60px;
     position: absolute;
-    bottom: -360px;
+    top: 1300px;
   }
   
   .pie-pagina .div-pie .sub-div p {
@@ -288,8 +286,47 @@ main section div img {
 
   .pie-pagina .div-pie .sub-div button {
     font-size: 10px;
-    margin-left: 270%;
+    margin-left: 200%;
   }
 
+}
+
+@media (max-width:900px) {
+  body {
+    background-color:black;
+  }
+  
+  .cabezera {
+    background-color: black;
+  }
+  
+  main section div {
+    color: #F49712;
+  }
+
+  .box a {
+    font-size: 17px;
+  }
+  
+  .container .productos .sub-productos p {
+    font-size: 20px;
+  }
+
+  .imagen-pequeña {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: -550px;
+  }
+  
+  .pie-pagina .div-pie .sub-div p {
+    font-size: 15px;
+    width: 100px;
+  }
+
+  .pie-pagina .div-pie .sub-div button {
+    font-size: 13px;
+    margin-right: -100%;
+  }
 }
 
