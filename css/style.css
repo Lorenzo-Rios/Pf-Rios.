@@ -1,0 +1,240 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  appearance: none;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: #7870B3 #494A4D;
+}
+
+body {
+  background-color:#292C3E
+}
+
+@font-face{
+  font-family: 'adam-shelby';
+  src: url('../assets/fuentes/ADLaMDisplay-Regular.ttf');
+}
+
+@font-face{
+  font-family: 'gorila-blue';
+  src: url('../assets/fuentes/GloriaHallelujah-Regular.ttf');
+}
+
+.box {
+  display: flex;
+  background-color:#FDFDFD;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 59px;
+}
+
+.subbox {
+  background-color: #DD081A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 3px solid black;
+  border-radius: 1px;
+  width: 15vw;
+  height: 5vh; 
+  margin: 1%;
+}
+
+.subbox a {
+  width: 13vw;
+  height: 15vh;
+  color: white;
+  font-size: x-large;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+.logo {
+  width: 8%;
+  position: absolute;
+  
+}
+
+.cabezera {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#DD081A;
+  border-bottom: 2px solid black;
+}
+
+.cabezera-pagina {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo-uno {
+  font-family: 'adam-shelby';
+  font-size: 50px;
+  color: #FDFDFD;
+  padding: 5%;
+}
+
+.instagram {
+  width: 5%;
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+  position:fixed;
+}
+
+.cabezera-pagina h2 {
+  font-size: 30px;
+  color: #FDFDFD;
+}
+
+.cabezera-pagina img {
+  width: 50%;
+}
+
+.cabezera-pagina p {
+  color: #FDFDFD;
+  width: 50%;
+  font-style: italic;
+  font-size: x-large;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.productos {
+  color: #FDFDFD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color:#292C3E;
+}
+
+.light {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.productos p {
+  width: 70%;
+  font-style: italic;
+  font-size: x-large;
+  font-family:cursive;
+}
+
+.imagen {
+  width: 30%;
+}
+
+.zero {
+  width: 15%;
+}
+
+.coca-zero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pie-pagina {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.div-pie {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40%;
+}
+
+
+
+button {
+  font-family: 'adam-shelby';
+  background-color: transparent;
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+  border: 2px solid whitesmoke;
+  border-radius: 5rem;
+  cursor: pointer;
+  transition: all 1s ease;
+  box-shadow: .5rem .5rem 1rem white , -.5rem -.5rem 1rem gray;
+}
+
+button:hover {
+  box-shadow: .5rem .5rem 1rem gray , -.5rem -.5rem 1rem white;
+}
+
+button:active {
+  box-shadow: inset .2rem .2rem 1rem white,  inset -.2rem -.2rem 1rem white;
+}
+
+
+.buton {
+  background-color: transparent;
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+  border: 2px solid whitesmoke;
+  border-radius: 5rem;
+  cursor: pointer;
+  transition: all 1s ease;
+  box-shadow: .5rem .5rem 1rem white , -.5rem -.5rem 1rem gray;
+  text-decoration:underline;
+ 
+}
+
+.pie-pagina .div-pie .sub-div p {
+  width: 10vw;
+  height: 10vh;
+  font-size: x-large;
+  color:#DD081A ;
+  font-family: 'gorila-blue';
+}
+
+.pie-pagina {
+  border-top: 4px solid black;
+  background-color:#FDFDFD;
+
+  padding-bottom: 20px;
+}
+
+main section div img {
+  border: solid 3px  #FDFDFD;
+  border-radius: 3px;
+}
+
+header img {
+  border: solid 3px  #FDFDFD;
+  border-radius: 3px;
+}
+
+.imagen-pequeña {
+  width: 6%;
+  margin-bottom: -120px;
+}

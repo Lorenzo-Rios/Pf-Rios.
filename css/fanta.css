@@ -1,0 +1,245 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  appearance: none;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: #7870B3 #494A4D;
+}
+
+@font-face{
+  font-family: 'adam-shelby';
+  src: url('../assets/fuentes/ADLaMDisplay-Regular.ttf');
+}
+
+@font-face{
+  font-family: 'gorila-blue';
+  src: url('../assets/fuentes/GloriaHallelujah-Regular.ttf');
+}
+
+body {
+  background-color: #134683;
+}
+
+.box {
+  display: flex;
+  background-color: #F49712;
+  align-items: flex-start;
+  justify-content: center;
+  padding-bottom: 58px;
+}
+
+.subbox {
+  background-color: #134683;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 15vw;
+  height: 5vh;   
+  margin: 1%;
+  border-radius: 3px;
+  border: 3 px solid #494A4D;
+}
+
+.subbox a {
+  width: 13vw;
+  height: 15vh;
+  color:#F49712;
+  font-size: x-large;
+  font-family:cursive;
+}
+
+.logo {
+  width: 8%;
+  position: absolute;
+}
+
+.cabezera {
+  font-family:cursive;
+  color: #F49712;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#134683;
+  border-bottom: 2px solid black;
+}
+
+.instagram {
+  width: 5%;
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+  position:fixed;
+}
+
+.cabezera a {
+  color: #F49712;
+}
+
+.cabezera p {
+  font-size: x-large;
+}
+
+
+.subdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pie-pagina {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.div-pie {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40%;
+}
+
+.imagen-pequeña {
+  align-self: flex-start;
+  justify-self:start;
+}
+
+.imagen-pequeña {
+  width: 5%;
+  position: absolute;
+  bottom: -930px;
+}
+
+button {
+  font-family: 'adam-shelby';
+  background-color: transparent;
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+  border: 2px solid whitesmoke;
+  border-radius: 5rem;
+  cursor: pointer;
+  transition: all 1s ease;
+  box-shadow: .5rem .5rem 1rem white , -.5rem -.5rem 1rem gray;
+}
+
+button:hover {
+  box-shadow: .5rem .5rem 1rem gray , -.5rem -.5rem 1rem white;
+}
+
+button:active {
+  box-shadow: inset .2rem .2rem 1rem white,  inset -.2rem -.2rem 1rem white;
+}
+
+
+.buton {
+  background-color: transparent;
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+  border: 2px solid whitesmoke;
+  border-radius: 5rem;
+  cursor: pointer;
+  transition: all 1s ease;
+  box-shadow: .5rem .5rem 1rem white , -.5rem -.5rem 1rem gray;
+  text-decoration:underline;
+  margin-left: 1400px;
+}
+
+.pie-pagina .div-pie .sub-div p {
+  width: 10vw;
+  height: 10vh;
+  font-size: x-large;
+  color:#FDFDFD ;
+  font-style: italic;
+  font-family: 'gorila-blue';
+}
+
+.pie-pagina {
+  border-top: 4px solid black;
+  background-color: #F49712;
+  margin-top: 100px;
+  padding-bottom: 20px;
+}
+
+.cabezera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-cabezera {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.div-cabezera p {
+  width: 100%;
+  padding: 50px;
+}
+
+.div-cabezera h1 {
+  padding: 60px;
+}
+
+.subdiv {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-right: 1%;
+}
+
+.fanta-pic {
+  width: 30%;
+}
+
+.container {
+  display: flex;
+}
+
+.productos {
+  display: flex;
+}
+
+.sub-productos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sub-productos p {
+  width: 50%;
+  font-size: xx-large;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sub-productos h2 {
+  font-size: xx-large;
+}
+
+main section div img {
+  border: solid 5px #FDFDFD;;
+  border-radius: 5px;
+}
