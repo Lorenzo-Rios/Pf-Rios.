@@ -243,3 +243,7 @@ main section div img {
   border: solid 5px #FDFDFD;;
   border-radius: 5px;
 }
+
+main section div h1{
+  color: #FDFDFD;
+}
