@@ -161,7 +161,6 @@ button:active {
   transition: all 1s ease;
   box-shadow: .5rem .5rem 1rem white , -.5rem -.5rem 1rem gray;
   text-decoration:underline;
-  margin-left: 1400px;
 }
 
 .pie-pagina .div-pie .sub-div p {
@@ -199,6 +198,7 @@ button:active {
 }
 
 .div-cabezera h1 {
+  font-size: 50px;
   padding: 60px;
 }
 
@@ -244,6 +244,52 @@ main section div img {
   border-radius: 5px;
 }
 
-main section div h1{
-  color: #FDFDFD;
+
+@media (max-width:600px) {
+
+  body {
+    background-color:black;
+  }
+  
+  .cabezera {
+    background-color: black;
+  }
+  
+
+  main section div {
+    color: #F49712;
+  }
+  
+
+  .box a {
+    font-size: 13px;
+  }
+  
+
+  header div .subdiv {
+    font-size: 20px;
+  }
+  
+  .container .productos .sub-productos p {
+    font-size: 15px;
+  }
+
+  .imagen-pequeña {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: -360px;
+  }
+  
+  .pie-pagina .div-pie .sub-div p {
+    font-size: 15px;
+    width: 100px;
+  }
+
+  .pie-pagina .div-pie .sub-div button {
+    font-size: 10px;
+    margin-left: 270%;
+  }
+
 }
+

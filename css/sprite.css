@@ -150,7 +150,6 @@ button:active {
   transition: all 1s ease;
   box-shadow: .5rem .5rem 1rem white , -.5rem -.5rem 1rem gray;
   text-decoration:underline;
-  margin-left: 1400px;
 }
 
 .pie-pagina .div-pie .sub-div p {
@@ -199,7 +198,7 @@ main section div img {
 
 main section div p {
   font-family:cursive;
-  width: 80%;
+  font-size: 20px;
 }
 
 .caja {
