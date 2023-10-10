@@ -32,7 +32,7 @@
 }
 
 .subbox {
-  background-color: #FFF400;
+  background-color:#FDFFFF;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,7 +47,7 @@
 .subbox a {
   width: 13vw;
   height: 15vh;
-  color: white;
+  color:#025C1F;
   font-size: x-large;
   font-family:cursive;
 }
@@ -62,7 +62,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color:#FFF400;
+  background-color:#FDFFFF;
   border-bottom: 2px solid #FDFFFF;
 }
 
@@ -194,7 +194,7 @@ body {
 main section div img {
   border: 5px groove #025C1F;
   border-radius: 5px;
-}
+} 
 
 main section div p {
   font-family:cursive;
@@ -227,16 +227,5 @@ header p {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.cajota {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.cajita {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 25px;
 }
