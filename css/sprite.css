@@ -222,3 +222,21 @@ header p {
   font-style: italic;
   padding: 100px;
 }
+
+.carrusel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cajota {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cajita {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
