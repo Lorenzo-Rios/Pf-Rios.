@@ -101,6 +101,7 @@ body {
 
 .cabezera-pagina img {
   width: 50%;
+  height: 50%;
 }
 
 .cabezera-pagina p {
@@ -127,6 +128,15 @@ body {
   flex-direction: column;
 }
 
+.coca-origin img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+  height: 40%;
+}
+
 .productos p {
   width: 70%;
   font-style: italic;
@@ -135,11 +145,11 @@ body {
 }
 
 .imagen {
-  width: 30%;
+  width: 40%;
 }
 
 .zero {
-  width: 15%;
+  width: 20%;
 }
 
 .coca-zero {
@@ -220,7 +230,6 @@ button:active {
 .pie-pagina {
   border-top: 4px solid black;
   background-color:#FDFDFD;
-
   padding-bottom: 20px;
 }
 
@@ -238,3 +247,118 @@ header img {
   width: 6%;
   margin-bottom: -120px;
 }
+
+
+@media (max-width:600px) {
+
+  body {
+    background-color:black;
+  }
+    
+  .productos {
+    background-color: black;
+  }
+
+  .box a {
+    font-size: 13px;
+  }
+
+  .titulo-uno {
+    font-size: 30px;
+  }
+
+  .cabezera-pagina p {
+    font-size: 13px;
+  }
+
+  .productos .light p {
+    font-size: 10px;
+  }
+
+  .productos .coca-origin p {
+    font-size: 10px;
+  }
+
+  .productos .coca-zero p {
+    font-size: 10px;
+  }
+
+  .productos .coca-zero h4 {
+    font-size: 20px;
+  } 
+
+  .productos .coca-origin h2 {
+    font-size: 20px;
+  }
+
+  .pie-pagina .div-pie .sub-div p {
+    font-size: 15px;
+    width: 100px;
+  }
+
+  .pie-pagina .div-pie .sub-div button {
+    font-size: 10px;
+    margin-left: 250%;
+  }
+
+  .imagen-pequeña {
+    width: 60px;
+    height: 60px;
+    margin-bottom: -100px;
+  }
+} 
+
+@media (max-width:900px) {
+
+  body {
+    background-color:black;
+  }
+    
+  .productos {
+    background-color: black;
+  }
+
+  .box a {
+    font-size: 17px;
+  }
+
+  .cabezera-pagina p {
+    font-size: 20px;
+  }
+
+  .productos .light p {
+    font-size: 15px;
+  }
+
+  .productos .coca-origin p {
+    font-size: 15px;
+  }
+
+  .productos .coca-zero p {
+    font-size: 15px;
+  }
+
+  .productos .coca-zero h4 {
+    font-size: 20px;
+  } 
+
+  .productos .coca-origin h2 {
+    font-size: 20px;
+  }
+
+  .pie-pagina .div-pie .sub-div p {
+    font-size: 15px;
+    width: 100px;
+  }
+
+  .pie-pagina .div-pie .sub-div button {
+    font-size: 10px;
+    margin-left: 250%;
+  }
+
+  .imagen-pequeña {
+    width: 60px;
+    height: 60px;
+    margin-bottom: -100px;
+  }
+} 

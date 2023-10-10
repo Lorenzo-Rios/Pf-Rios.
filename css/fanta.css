@@ -24,7 +24,7 @@
 }
 
 body {
-  background-color: #134683;
+  background-color:black;
 }
 
 .box {
@@ -36,7 +36,7 @@ body {
 }
 
 .subbox {
-  background-color: #134683;
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,7 +67,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color:#134683;
+  background-color:black;
   border-bottom: 2px solid black;
 }
 
@@ -239,11 +239,15 @@ button:active {
   font-size: xx-large;
 }
 
+
 main section div img {
   border: solid 5px #FDFDFD;;
   border-radius: 5px;
 }
 
+main section div {
+  color: #F49712;
+}
 
 @media (max-width:600px) {
 
@@ -330,3 +334,4 @@ main section div img {
   }
 }
 
+@media (max-width:600px)
