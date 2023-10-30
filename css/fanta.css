@@ -115,15 +115,12 @@ body {
   margin-right: 40%;
 }
 
-.imagen-pequeña {
-  align-self: flex-start;
-  justify-self:start;
-}
+
 
 .imagen-pequeña {
   width: 5%;
   position: absolute;
-  bottom: -930px;
+
 }
 
 button {
@@ -175,7 +172,6 @@ button:active {
 .pie-pagina {
   border-top: 4px solid black;
   background-color: #F49712;
-  margin-top: 100px;
   padding-bottom: 20px;
 }
 
@@ -214,11 +210,13 @@ button:active {
 }
 
 .container {
+  background-color: black;
   display: flex;
 }
 
 .productos {
   display: flex;
+  background-color: black;
 }
 
 .sub-productos {
@@ -226,6 +224,7 @@ button:active {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: black;
 }
 
 .sub-productos p {
@@ -233,6 +232,7 @@ button:active {
   font-size: xx-large;
   font-style: italic;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: black;
 }
 
 .sub-productos h2 {
@@ -243,12 +243,34 @@ button:active {
 main section div img {
   border: solid 5px #FDFDFD;;
   border-radius: 5px;
+  background-color: black;
 }
 
 main section div {
   color: #F49712;
 }
 
+.carrusel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  background-color: black;
+}
+
+.carrusel .carousel-inner .carousel-item .uno {
+  width: 25vw;
+  height: 20vh;
+}
+.carrusel .carousel-inner .carousel-item .dos {
+  width: 25vw;
+  height: 20vh;
+}
+
+.carrusel .carousel-inner .carousel-item .tres {
+  width: 25vw;
+  height: 20vh;
+}
 @media (max-width:600px) {
 
   body {

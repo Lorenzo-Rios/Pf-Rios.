@@ -230,6 +230,16 @@ header p {
   padding: 25px;
 }
 
-.carrusel .carousel-inner div img {
-  width: 10%;
+.carrusel .carousel-inner .carousel-item .uno {
+  width: 25vw;
+  height: 20vh;
+}
+.carrusel .carousel-inner .carousel-item .dos {
+  width: 25vw;
+  height: 20vh;
+}
+
+.carrusel .carousel-inner .carousel-item .tres {
+  width: 25vw;
+  height: 20vh;
 }

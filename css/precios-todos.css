@@ -81,9 +81,6 @@ body {
   position:fixed;
 }
 
-
-
-
 .pie-pagina {
   display: flex;
   align-items: center;
@@ -108,7 +105,6 @@ body {
 .imagen-pequeña {
   width: 5%;
   position: absolute;
-  bottom: -380px;
 }
 
 button {
@@ -187,7 +183,7 @@ button:active {
 .sub {
   font-style: italic;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  color: #FDFDFD;
+  color:black;
 }
 
 
@@ -209,14 +205,14 @@ main .productos .tit-parrafo {
   width: 80%;
   font-style: italic;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  color: #FDFDFD;;
+  color:black;
   margin-left: 120px;
   padding: 100px;
   font-size: 30px;
 }
 
 main section div img {
-  border: solid 5px #FDFDFD;;
+  border: solid 5px black;;
   border-radius: 5px;
 }
 
@@ -237,7 +233,7 @@ main section div img {
 }
 
 .lista-sprite {
-  color: #FDFDFD;
+  color:black;
   font-size: x-large;
   font-family: 'gorila-blue';
   font-style: italic;
@@ -245,7 +241,7 @@ main section div img {
 }
 
 .lista-fanta {
-  color: #FDFDFD;
+  color:black;
   font-size: x-large;
   font-family: 'gorila-blue';
   font-style: italic;
@@ -253,7 +249,7 @@ main section div img {
 }
 
 .coca-lista {
-  color: #FDFDFD;
+  color:black;
   font-size: x-large;
   font-family: 'gorila-blue';
   font-style: italic;
@@ -261,33 +257,49 @@ main section div img {
 }
 
 .cocalight-lista {
-  color: #FDFDFD;
+  color:black;
   font-size: x-large;
   font-family: 'gorila-blue';
   font-style: italic;
   text-decoration:solid
 }
 
-body {
-  background-color: #494A4D;
-}
-
 main section .caja .sub-caja h3{
   font-size: 35px;
-  color:#FDFDFD
+  color:black;
 }
 
 main section .caja .sub-caja h4{
   font-size: 35px;
-  color:#FDFDFD
+  color:black;
 }
 
 main section .caja .sub-caja h5{
   font-size: 35px;
-  color:#FDFDFD
+  color:black;
 }
 
 main section .caja .sub-caja h6{
   font-size: 35px;
-  color:#FDFDFD
+  color:black;
+}
+
+.carrusel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.carrusel .carousel-inner .carousel-item .uno {
+  width: 25vw;
+  height: 20vh;
+}
+.carrusel .carousel-inner .carousel-item .dos {
+  width: 25vw;
+  height: 20vh;
+}
+
+.carrusel .carousel-inner .carousel-item .tres {
+  width: 25vw;
 }
