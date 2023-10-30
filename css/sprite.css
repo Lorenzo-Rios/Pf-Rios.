@@ -229,3 +229,7 @@ header p {
   align-items: center;
   padding: 25px;
 }
+
+.carrusel .carousel-inner div img {
+  width: 50%;
+}
