@@ -303,3 +303,117 @@ main section .caja .sub-caja h6{
 .carrusel .carousel-inner .carousel-item .tres {
   width: 25vw;
 }
+
+@media (max-width:600px) {
+
+  body {
+    background-color:black;
+  }
+    
+  .productos {
+    background-color: black;
+  }
+
+  .box a {
+    font-size: 13px;
+  }
+
+  .titulo-uno {
+    font-size: 30px;
+  }
+
+  .cabezera-pagina p {
+    font-size: 13px;
+  }
+
+  .productos .light p {
+    font-size: 10px;
+  }
+
+  .productos .coca-origin p {
+    font-size: 10px;
+  }
+
+  .productos .coca-zero p {
+    font-size: 10px;
+  }
+
+  .productos .coca-zero h4 {
+    font-size: 20px;
+  } 
+
+  .productos .coca-origin h2 {
+    font-size: 20px;
+  }
+
+  .pie-pagina .div-pie .sub-div p {
+    font-size: 15px;
+    width: 100px;
+  }
+
+  .pie-pagina .div-pie .sub-div button {
+    font-size: 10px;
+    margin-left: 250%;
+  }
+
+  .imagen-pequeña {
+    width: 60px;
+    height: 60px;
+    margin-bottom: -100px;
+  }
+} 
+
+@media (max-width:900px) {
+
+  body {
+    background-color:black;
+  }
+    
+  .productos {
+    background-color: black;
+  }
+
+  .box a {
+    font-size: 17px;
+  }
+
+  .cabezera-pagina p {
+    font-size: 20px;
+  }
+
+  .productos .light p {
+    font-size: 15px;
+  }
+
+  .productos .coca-origin p {
+    font-size: 15px;
+  }
+
+  .productos .coca-zero p {
+    font-size: 15px;
+  }
+
+  .productos .coca-zero h4 {
+    font-size: 20px;
+  } 
+
+  .productos .coca-origin h2 {
+    font-size: 20px;
+  }
+
+   .pie-pagina .div-pie .sub-div p {
+    font-size: 15px;
+    width: 100px;
+  }
+
+  .pie-pagina .div-pie .sub-div button {
+    font-size: 10px;
+    margin-left: 250%;
+  }
+
+  .imagen-pequeña {
+    width: 60px;
+    height: 60px;
+    margin-bottom: -100px;
+  }
+} 
