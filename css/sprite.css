@@ -23,11 +23,6 @@
   src: url('../assets/fuentes/GloriaHallelujah-Regular.ttf');
 }
 
-.navbar navbar-dark bg-dark {
-  position: sticky;
-  top: 0px;
-}
-
 .collapse {
   position: sticky;
   top: 0px;
@@ -120,15 +115,14 @@ button {
   color: black;
   font-size: 1rem;
   padding: 1rem 1.5rem;
-  border: 2px solid whitesmoke;
   border-radius: 5rem;
   cursor: pointer;
   transition: all 1s ease;
-  box-shadow: .5rem .5rem 1rem white , -.5rem -.5rem 1rem gray;
+  box-shadow: .5rem .5rem 1rem black , -.5rem -.5rem 1rem black;
 }
 
 button:hover {
-  box-shadow: .5rem .5rem 1rem gray , -.5rem -.5rem 1rem white;
+  box-shadow: .5rem .5rem 1rem #025C1F , -.5rem -.5rem 1rem #025C1F;
 }
 
 button:active {
@@ -147,7 +141,7 @@ button:active {
   cursor: pointer;
   transition: all 1s ease;
   box-shadow: .5rem .5rem 1rem white , -.5rem -.5rem 1rem gray;
-  text-decoration:underline;
+  text-decoration:none;
 }
 
 .pie-pagina .div-pie .sub-div p {
@@ -229,116 +223,83 @@ header p {
 }
 
 .carrusel .carousel-inner .carousel-item .uno {
-  width: 25vw;
-  height: 20vh;
+  width: 80vw;
+  height: 70vh;
 }
 .carrusel .carousel-inner .carousel-item .dos {
-  width: 25vw;
-  height: 20vh;
+  width: 80vw;
+  height: 70vh;
 }
 
 .carrusel .carousel-inner .carousel-item .tres {
-  width: 25vw;
-  height: 20vh;
+  width: 80vw;
+  height: 70vh;
 }
 
 @media (max-width:600px) {
 
-  body {
-    background-color:black;
-  }
-    
-  .productos {
-    background-color: black;
+  button {
+    padding: 5px;
   }
 
-  .box a {
-    font-size: 13px;
+  .collapse .bg-dark .box .subbox button a{
+    font-size: 10px;
   }
 
-  .titulo-uno {
+  .titulo-sprite {
     font-size: 30px;
   }
 
-  .cabezera-pagina p {
+  header p {
     font-size: 13px;
   }
+  
 
-  .productos .light p {
-    font-size: 10px;
+  .carrusel .carousel-inner .carousel-item .uno {
+    width: 80vw;
+    height: 40vh
   }
 
-  .productos .coca-origin p {
-    font-size: 10px;
+  .carrusel .carousel-inner .carousel-item .dos {
+    width: 80vw;
+    height: 40vh
   }
 
-  .productos .coca-zero p {
-    font-size: 10px;
+  .carrusel .carousel-inner .carousel-item .tres {
+    width: 80vw;
+    height: 40vh;
   }
+  
 
-  .productos .coca-zero h4 {
-    font-size: 20px;
-  } 
 
-  .productos .coca-origin h2 {
-    font-size: 20px;
-  }
-
-  .pie-pagina .div-pie .sub-div p {
-    font-size: 15px;
-    width: 100px;
-  }
-
-  .pie-pagina .div-pie .sub-div button {
-    font-size: 10px;
-    margin-left: 250%;
-  }
-
-  .imagen-pequeña {
-    width: 60px;
-    height: 60px;
-    margin-bottom: -100px;
-  }
-} 
-
+  
+}
 @media (max-width:900px) {
-
-  body {
-    background-color:black;
+  button {
+    padding: 4px;
   }
+
+  .collapse .bg-dark .box .subbox button a{
+    font-size: 15px;
+  }
+
+  .titulo-sprite {
+    font-size: 40px;
+  }
+
+  .sprite-light {
+    width: 100%
+  }
+
+  .sprite-zero {
+    width: 100%;
     
-  .productos {
-    background-color: black;
   }
 
-  .box a {
-    font-size: 17px;
+  .sprite-imagen {
+    width: 100%;
+   
   }
-
-  .cabezera-pagina p {
-    font-size: 20px;
-  }
-
-  .productos .light p {
-    font-size: 15px;
-  }
-
-  .productos .coca-origin p {
-    font-size: 15px;
-  }
-
-  .productos .coca-zero p {
-    font-size: 15px;
-  }
-
-  .productos .coca-zero h4 {
-    font-size: 20px;
-  } 
-
-  .productos .coca-origin h2 {
-    font-size: 20px;
-  }
-
    .pie-pagina .div-pie .sub-div p {
     font-size: 15px;
     width: 100px;
@@ -349,9 +310,13 @@ header p {
     margin-left: 250%;
   }
 
-  .imagen-pequeña {
-    width: 60px;
-    height: 60px;
-    margin-bottom: -100px;
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .productos .caja {
+    display: flex;
+    flex-direction: column;
   }
 } 

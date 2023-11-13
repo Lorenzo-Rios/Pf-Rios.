@@ -134,18 +134,17 @@ button {
   font-family: 'adam-shelby';
   background-color: transparent;
   font-weight: bold;
-  color: black;
   font-size: 1rem;
   padding: 1rem 1.5rem;
-  border: 2px solid whitesmoke;
+  border: 2px ;
   border-radius: 5rem;
   cursor: pointer;
   transition: all 1s ease;
-  box-shadow: .5rem .5rem 1rem white , -.5rem -.5rem 1rem gray;
+  box-shadow: .5rem .5rem 1rem black , -.5rem -.5rem 1rem black;
 }
 
 button:hover {
-  box-shadow: .5rem .5rem 1rem gray , -.5rem -.5rem 1rem white;
+  box-shadow: .5rem .5rem 1rem orange , -.5rem -.5rem 1rem orange;
 }
 
 button:active {
@@ -159,7 +158,7 @@ button:active {
   color: black;
   font-size: 1rem;
   padding: 1rem 1.5rem;
-  border: 2px solid whitesmoke;
+  border: 2px solid black;
   border-radius: 5rem;
   cursor: pointer;
   transition: all 1s ease;
@@ -296,7 +295,7 @@ main section div {
   }
 
   .collapse .bg-dark .box .subbox button a{
-    font-size: 13px;
+    font-size: 10px;
   }
 
   header div .subdiv {
@@ -326,6 +325,14 @@ main section div {
 }
 
 @media (max-width:900px) {
+  button {
+    padding: 4px;
+  }
+
+  .collapse .bg-dark .box .subbox button a{
+    font-size: 15px;
+  }
+
   body {
     background-color:black;
   }

@@ -115,15 +115,14 @@ button {
   color: black;
   font-size: 1rem;
   padding: 1rem 1.5rem;
-  border: 2px solid whitesmoke;
   border-radius: 5rem;
   cursor: pointer;
   transition: all 1s ease;
-  box-shadow: .5rem .5rem 1rem white , -.5rem -.5rem 1rem gray;
+  box-shadow: .5rem .5rem 1rem black , -.5rem -.5rem 1rem black;
 }
 
 button:hover {
-  box-shadow: .5rem .5rem 1rem gray , -.5rem -.5rem 1rem white;
+  box-shadow: .5rem .5rem 1rem #7870B3 , -.5rem -.5rem 1rem #7870B3;
 }
 
 button:active {
@@ -278,100 +277,60 @@ main section div div img {
 }
 
 @media (max-width:600px) {
-
-  body {
-    background-color:black;
-  }
-    
-  .productos {
-    background-color: black;
+  button {
+    padding: 4px;
   }
 
-  .box a {
-    font-size: 13px;
+  .collapse .bg-dark .box .subbox button a{
+    font-size: 10px;
   }
-
+  
   .titulo-uno {
-    font-size: 30px;
-  }
-
-  .cabezera-pagina p {
-    font-size: 13px;
-  }
-
-  .productos .light p {
-    font-size: 10px;
-  }
-
-  .productos .coca-origin p {
-    font-size: 10px;
-  }
-
-  .productos .coca-zero p {
-    font-size: 10px;
-  }
-
-  .productos .coca-zero h4 {
-    font-size: 20px;
-  } 
-
-  .productos .coca-origin h2 {
     font-size: 20px;
   }
 
-  .pie-pagina .div-pie .sub-div p {
-    font-size: 15px;
-    width: 100px;
+  main {
+    display: flex;
   }
 
-  .pie-pagina .div-pie .sub-div button {
-    font-size: 10px;
-    margin-left: 250%;
+  .productos {
+    display: flex;
+    flex-direction: column;
   }
 
-  .imagen-pequeña {
-    width: 60px;
-    height: 60px;
-    margin-bottom: -100px;
+  .caja {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .subcaja {
+    justify-content: center;
+    align-items: center;
   }
 } 
 
 @media (max-width:900px) {
-
-  body {
-    background-color:black;
+  button {
+    padding: 4px;
   }
-    
+
+  .collapse .bg-dark .box .subbox button a{
+    font-size: 15px;
+  }
+
   .productos {
-    background-color: black;
+    display: flex;
+    flex-direction: column;
   }
 
-  .box a {
-    font-size: 17px;
+  .caja {
+    display: flex;
+    flex-direction: column;
   }
 
-  .cabezera-pagina p {
-    font-size: 20px;
-  }
-
-  .productos .light p {
-    font-size: 15px;
-  }
-
-  .productos .coca-origin p {
-    font-size: 15px;
-  }
-
-  .productos .coca-zero p {
-    font-size: 15px;
-  }
-
-  .productos .coca-zero h4 {
-    font-size: 20px;
-  } 
-
-  .productos .coca-origin h2 {
-    font-size: 20px;
+  .subcaja {
+    justify-content: center;
+    align-items: center;
   }
 
    .pie-pagina .div-pie .sub-div p {
@@ -383,10 +342,4 @@ main section div div img {
     font-size: 10px;
     margin-left: 250%;
   }
-
-  .imagen-pequeña {
-    width: 60px;
-    height: 60px;
-    margin-bottom: -100px;
-  }
-} 
+}

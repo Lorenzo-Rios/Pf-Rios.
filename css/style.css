@@ -194,15 +194,14 @@ button {
   color: black;
   font-size: 1rem;
   padding: 1rem 1.5rem;
-  border: 2px solid whitesmoke;
   border-radius: 5rem;
   cursor: pointer;
   transition: all 1s ease;
-  box-shadow: .5rem .5rem 1rem white , -.5rem -.5rem 1rem gray;
+  box-shadow: .5rem .5rem 1rem black , -.5rem -.5rem 1rem black;
 }
 
 button:hover {
-  box-shadow: .5rem .5rem 1rem gray , -.5rem -.5rem 1rem white;
+  box-shadow: .5rem .5rem 1rem #DD081A , -.5rem -.5rem 1rem #DD081A;
 }
 
 button:active {
@@ -256,17 +255,12 @@ header img {
 
 
 @media (max-width:600px) {
-
-  body {
-    background-color:black;
-  }
-    
-  .productos {
-    background-color: black;
+  button {
+    padding: 4px;
   }
 
-  .box a {
-    font-size: 13px;
+  .collapse .bg-dark .box .subbox button a{
+    font-size: 10px;
   }
 
   .titulo-uno {
@@ -307,25 +301,28 @@ header img {
     margin-left: 250%;
   }
 
-  .imagen-pequeña {
-    width: 60px;
-    height: 60px;
-    margin-bottom: -100px;
-  }
 } 
 
 @media (max-width:900px) {
-
-  body {
-    background-color:black;
-  }
-    
-  .productos {
-    background-color: black;
+  button {
+    padding: 4px;
   }
 
-  .box a {
-    font-size: 17px;
+  .collapse .bg-dark .box .subbox button a{
+    font-size: 15px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .productos {
+    flex-direction: column;
+  }
+  
+  .coca-origin {
+    margin-left: 30%;
   }
 
   .cabezera-pagina p {
@@ -362,9 +359,5 @@ header img {
     margin-left: 250%;
   }
 
-  .imagen-pequeña {
-    width: 60px;
-    height: 60px;
-    margin-bottom: -100px;
-  }
+  
 } 

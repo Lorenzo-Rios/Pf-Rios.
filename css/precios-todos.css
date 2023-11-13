@@ -119,15 +119,14 @@ button {
   color: black;
   font-size: 1rem;
   padding: 1rem 1.5rem;
-  border: 2px solid whitesmoke;
   border-radius: 5rem;
   cursor: pointer;
   transition: all 1s ease;
-  box-shadow: .5rem .5rem 1rem white , -.5rem -.5rem 1rem gray;
+  box-shadow: .5rem .5rem 1rem black , -.5rem -.5rem 1rem black;
 }
 
 button:hover {
-  box-shadow: .5rem .5rem 1rem gray , -.5rem -.5rem 1rem white;
+  box-shadow: .5rem .5rem 1rem #7870B3 , -.5rem -.5rem 1rem #7870B3;
 }
 
 button:active {
@@ -310,21 +309,16 @@ main section .caja .sub-caja h6{
 }
 
 @media (max-width:600px) {
-
-  body {
-    background-color:black;
-  }
-    
-  .productos {
-    background-color: black;
+  button {
+    padding: 5px;
   }
 
-  .box a {
-    font-size: 13px;
+  .collapse .bg-dark .box .subbox button a{
+    font-size: 10px;
   }
 
-  .titulo-uno {
-    font-size: 30px;
+  .sub {
+    font-size: 20px;
   }
 
   .cabezera-pagina p {
@@ -361,49 +355,29 @@ main section .caja .sub-caja h6{
     margin-left: 250%;
   }
 
-  .imagen-pequeña {
-    width: 60px;
-    height: 60px;
-    margin-bottom: -100px;
+  main .productos .tit-parrafo p {
+    font-size: 15px;
   }
 } 
 
 @media (max-width:900px) {
 
-  body {
-    background-color:black;
-  }
-    
-  .productos {
-    background-color: black;
+  button {
+    padding: 5px;
   }
 
-  .box a {
-    font-size: 17px;
-  }
-
-  .cabezera-pagina p {
-    font-size: 20px;
-  }
-
-  .productos .light p {
+  .collapse .bg-dark .box .subbox button a{
     font-size: 15px;
   }
 
-  .productos .coca-origin p {
-    font-size: 15px;
+  main .productos .caja .subcaja {
+    display: flex;
+    flex-direction: column;
   }
 
-  .productos .coca-zero p {
-    font-size: 15px;
-  }
-
-  .productos .coca-zero h4 {
-    font-size: 20px;
-  } 
-
-  .productos .coca-origin h2 {
-    font-size: 20px;
+  .caja {
+    display: flex;
+    flex-direction: column;
   }
 
    .pie-pagina .div-pie .sub-div p {
@@ -416,9 +390,5 @@ main section .caja .sub-caja h6{
     margin-left: 250%;
   }
 
-  .imagen-pequeña {
-    width: 60px;
-    height: 60px;
-    margin-bottom: -100px;
-  }
+ 
 } 
