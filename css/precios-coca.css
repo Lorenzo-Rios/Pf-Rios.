@@ -27,16 +27,23 @@ body {
   src: url('../assets/fuentes/GloriaHallelujah-Regular.ttf');
 }
 
+.navbar navbar-dark bg-dark {
+  position: sticky;
+  top: 0px;
+}
+
+.collapse {
+  position: sticky;
+  top: 0px;
+}
+
 .box {
   display: flex;
-  background-color: #FDFDFD;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
-  padding-bottom: 59px;
 }
 
 .subbox {
-  background-color: #DD081A;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,31 +51,24 @@ body {
   width: 15vw;
   height: 5vh; 
   margin: 1%;
-  border-radius: 3px;
-  border: 3px solid black;
 }
 
 .subbox a {
   width: 13vw;
   height: 15vh;
-  color: black;
-  font-size: x-large;
-  font-family:cursive;
+  color: white;
+  text-decoration: none;
+  font-style: italic;
+  font-family:sans-serif
 }
 
 .logo {
   width: 8%;
   position: absolute;
+  left: 0px;
 }
 
-.cabezera {
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #DD081A;
-  border-bottom: 2px solid gray;
-}
+
 
 .instagram {
   width: 5%;
@@ -105,8 +105,7 @@ body {
 
 .imagen-pequeña {
   width: 5%;
-  position: absolute;
-  bottom: -250px;
+  margin-bottom: -200px;
 }
 
 button {
@@ -230,52 +229,52 @@ button:active {
 }
 
 main section div div img {
-  border: 5px solid #FDFDFD;
+  border: 5px solid #494A4D;
   border-radius: 5px;
 }
 
 .lata-lista {
-  color: #FDFDFD;
+  color:#494A4D;
   font-size: 15px;
   font-family:cursive;
   font-style: italic;
 }
 
 .light-lista {
-  color: #FDFDFD;
+  color:#494A4D;
   font-size: 15px;
   font-family:cursive;
   font-style: italic;
 }
 
 .lista-life {
-  color: #FDFDFD;
+  color:#494A4D;
   font-size: 15px;
   font-family:cursive;
   font-style: italic;
 }
 
 .lista-zero {
-  color: #FDFDFD;
+  color:#494A4D;
   font-size: 15px;
   font-family:cursive;
   font-style: italic;
 }
 
 .lata-tit {
-  color: #FDFDFD;
+  color:#494A4D;
 }
 
 .tit-dos {
-  color: #FDFDFD;
+  color:#494A4D;
 }
 
 .life-tit {
-  color: #FDFDFD;
+  color:#494A4D;
 }
 
 .tit-zero {
-  color: #FDFDFD;
+  color:#494A4D;
 }
 
 @media (max-width:600px) {

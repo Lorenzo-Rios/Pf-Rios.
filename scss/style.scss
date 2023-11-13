@@ -27,21 +27,47 @@ body {
   src: url('../assets/fuentes/GloriaHallelujah-Regular.ttf');
 }
 
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+
+// Default variable overrides
+$body-bg: #000;
+$body-color: #111;
+
+// Required
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+// Optional Bootstrap components here
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+// etc
+
+.navbar navbar-dark bg-dark {
+  position: sticky;
+  top: 0px;
+}
+
+.collapse {
+  position: sticky;
+  top: 0px;
+}
+
 .box {
   display: flex;
-  background-color:#FDFDFD;
   align-items: center;
   justify-content: center;
-  padding-bottom: 59px;
 }
 
 .subbox {
-  background-color: #DD081A;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border: 3px solid black;
+  border: 3px solid gray;
   border-radius: 1px;
   width: 15vw;
   height: 5vh; 
@@ -53,14 +79,12 @@ body {
   height: 15vh;
   color: white;
   font-size: x-large;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  
+  text-decoration: none;
 }
 
 .logo {
-  width: 8%;
-  position: absolute;
-  
+  width: 5%;
+  position: absolute; 
 }
 
 .cabezera {

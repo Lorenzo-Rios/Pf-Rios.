@@ -27,22 +27,27 @@ body {
   src: url('../assets/fuentes/GloriaHallelujah-Regular.ttf');
 }
 
+.navbar navbar-dark bg-dark {
+  position: sticky;
+  top: 0px;
+}
+
+.collapse {
+  position: sticky;
+  top: 0px;
+}
+
 .box {
   display: flex;
-  background-color:#FDFDFD;
   align-items: center;
   justify-content: center;
-  padding-bottom: 59px;
 }
 
 .subbox {
-  background-color: #DD081A;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border: 3px solid black;
-  border-radius: 1px;
   width: 15vw;
   height: 5vh; 
   margin: 1%;
@@ -52,15 +57,15 @@ body {
   width: 13vw;
   height: 15vh;
   color: white;
-  font-size: x-large;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  
+  text-decoration: none;
+  font-style: italic;
+  font-family:sans-serif
 }
 
 .logo {
   width: 8%;
   position: absolute;
-  
+  left: 0px;
 }
 
 .cabezera {

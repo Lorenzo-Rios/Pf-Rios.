@@ -27,38 +27,45 @@ body {
   background-color:black;
 }
 
+.navbar navbar-dark bg-dark {
+  position: sticky;
+  top: 0px;
+}
+
+.collapse {
+  position: sticky;
+  top: 0px;
+}
+
 .box {
   display: flex;
-  background-color: #F49712;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
-  padding-bottom: 58px;
 }
 
 .subbox {
-  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   width: 15vw;
-  height: 5vh;   
+  height: 5vh; 
   margin: 1%;
-  border-radius: 3px;
-  border: 3 px solid #494A4D;
 }
 
 .subbox a {
   width: 13vw;
   height: 15vh;
-  color:#F49712;
-  font-size: x-large;
-  font-family:cursive;
+  color: white;
+  text-decoration: none;
+  font-style: italic;
+  font-family:sans-serif
 }
 
 .logo {
   width: 8%;
   position: absolute;
+  left: 0px;
 }
 
 .cabezera {
