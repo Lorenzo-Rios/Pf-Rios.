@@ -279,6 +279,9 @@ main section div {
   height: 20vh;
 }
 @media (max-width:600px) {
+  button {
+    padding: 5px;
+  }
 
   body {
     background-color:black;
@@ -292,10 +295,9 @@ main section div {
     color: #F49712;
   }
 
-  .box a {
+  .collapse .bg-dark .box .subbox button a{
     font-size: 13px;
   }
-  
 
   header div .subdiv {
     font-size: 20px;
@@ -308,8 +310,7 @@ main section div {
   .imagen-pequeña {
     width: 60px;
     height: 60px;
-    position: absolute;
-    top: 1300px;
+    margin-bottom: -430px;
   }
   
   .pie-pagina .div-pie .sub-div p {
