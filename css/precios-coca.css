@@ -277,6 +277,10 @@ main section div div img {
 }
 
 @media (max-width:600px) {
+  .sub .titulo-uno {
+    font-size: 40px;
+  }
+
   button {
     padding: 4px;
   }
@@ -310,6 +314,10 @@ main section div div img {
 } 
 
 @media (max-width:900px) {
+  .sub .titulo-uno {
+    font-size: 60px;
+  }
+
   button {
     padding: 4px;
   }
