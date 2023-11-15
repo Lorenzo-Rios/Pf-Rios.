@@ -125,6 +125,7 @@ body {
   justify-content: center;
   flex-direction: row;
   background-color:#292C3E;
+  padding: 10px;
 }
 
 .light {
@@ -139,15 +140,17 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 40%;
+  width: 60%;
   height: 40%;
 }
 
 .productos p {
-  width: 70%;
+  width: 50%;
   font-style: italic;
   font-size: x-large;
   font-family:cursive;
+  background-color:aqua;
+  border-radius: 5px;
 }
 
 .imagen {
@@ -253,14 +256,21 @@ header img {
   margin-bottom: -150px;
 }
 
+.collapse .bg-dark .box .subbox a{
+  font-family: fantasy;
+  background-color:#DD081A;
+  width: 15vw;
+  height: 20vh;
+  border-radius: 5px;
+}
 
 @media (max-width:600px) {
-  button {
-    padding: 4px;
-  }
-
-  .collapse .bg-dark .box .subbox button a{
-    font-size: 10px;
+  .collapse .bg-dark .box .subbox a{
+    font-family: fantasy;
+    background-color:#DD081A;
+    width: 15vw;
+    height: 20vh;
+    border-radius: 5px;
   }
 
   .titulo-uno {
@@ -296,7 +306,7 @@ header img {
     width: 100px;
   }
 
-  .pie-pagina .div-pie .sub-div button {
+  .pie-pagina .div-pie .sub-div a  {
     font-size: 10px;
     margin-left: 250%;
   }
@@ -304,13 +314,6 @@ header img {
 } 
 
 @media (max-width:900px) {
-  button {
-    padding: 4px;
-  }
-
-  .collapse .bg-dark .box .subbox button a{
-    font-size: 15px;
-  }
 
   main {
     display: flex;
@@ -354,7 +357,7 @@ header img {
     width: 100px;
   }
 
-  .pie-pagina .div-pie .sub-div button {
+  .pie-pagina .div-pie .sub-div a {
     font-size: 10px;
     margin-left: 250%;
   }

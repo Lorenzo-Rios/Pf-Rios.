@@ -277,10 +277,17 @@ main section div {
   width: 25vw;
   height: 20vh;
 }
+
+.collapse .bg-dark .box .subbox a{
+  font-family: fantasy;
+  background-color: #F49712;
+  width: 15vw;
+  height: 20vh;
+  border-radius: 5px;
+}
+
 @media (max-width:600px) {
-  button {
-    padding: 5px;
-  }
+  
 
   body {
     background-color:black;
@@ -294,8 +301,12 @@ main section div {
     color: #F49712;
   }
 
-  .collapse .bg-dark .box .subbox button a{
-    font-size: 10px;
+  .collapse .bg-dark .box .subbox a{
+    font-family: fantasy;
+    background-color: #F49712;
+    width: 15vw;
+    height: 20vh;
+    border-radius: 5px;
   }
 
   header div .subdiv {
@@ -325,13 +336,6 @@ main section div {
 }
 
 @media (max-width:900px) {
-  button {
-    padding: 4px;
-  }
-
-  .collapse .bg-dark .box .subbox button a{
-    font-size: 15px;
-  }
 
   body {
     background-color:black;
@@ -345,10 +349,6 @@ main section div {
     color: #F49712;
   }
 
-  .box a {
-    font-size: 17px;
-  }
-  
   .container .productos .sub-productos p {
     font-size: 20px;
   }
@@ -365,8 +365,8 @@ main section div {
     width: 100px;
   }
 
-  .pie-pagina .div-pie .sub-div button {
+  .pie-pagina .div-pie .sub-div a {
     font-size: 13px;
-    margin-right: -100%;
+    margin-right: -250%;
   }
 }

@@ -59,7 +59,7 @@ body {
   color: white;
   text-decoration: none;
   font-style: italic;
-  font-family:sans-serif
+  font-family:sans-serif;
 }
 
 .logo {
@@ -152,6 +152,8 @@ button:active {
   color:#DD081A;
   font-style: italic;
   font-family: 'gorila-blue';
+  background-color: black;
+  border-radius: 10px;
 }
 
 .pie-pagina {
@@ -193,6 +195,9 @@ button:active {
 .sub-container h1 {
   font-size: 100px;
   color: #FDFDFD;
+  background-color:black;
+  border-radius: 5px;
+  padding: 100px;
 }
 
 .sub-container p {
@@ -276,17 +281,26 @@ main section div div img {
   color:#494A4D;
 }
 
+
+.collapse .bg-dark .box .subbox a{
+  font-family: fantasy;
+  background-color:#DD081A;
+  width: 15vw;
+  height: 20vh;
+  border-radius: 5px;
+}
+
 @media (max-width:600px) {
-  .sub .titulo-uno {
+  .titulo-uno {
     font-size: 40px;
   }
-
-  button {
-    padding: 4px;
-  }
-
-  .collapse .bg-dark .box .subbox button a{
-    font-size: 10px;
+  
+  .collapse .bg-dark .box .subbox a{
+    font-family: fantasy;
+    background-color:#DD081A;
+    width: 15vw;
+    height: 20vh;
+    border-radius: 5px;
   }
   
   .titulo-uno {
@@ -318,13 +332,7 @@ main section div div img {
     font-size: 60px;
   }
 
-  button {
-    padding: 4px;
-  }
-
-  .collapse .bg-dark .box .subbox button a{
-    font-size: 15px;
-  }
+ 
 
   .productos {
     display: flex;
@@ -346,7 +354,7 @@ main section div div img {
     width: 100px;
   }
 
-  .pie-pagina .div-pie .sub-div button {
+  .pie-pagina .div-pie .sub-div a {
     font-size: 10px;
     margin-left: 250%;
   }
