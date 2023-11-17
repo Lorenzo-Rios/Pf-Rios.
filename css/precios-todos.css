@@ -237,35 +237,47 @@ main section div img {
 }
 
 .lista-sprite {
-  color:black;
-  font-size: x-large;
-  font-family: 'gorila-blue';
   font-style: italic;
-  text-decoration:solid
+  color: whitesmoke;
+  font-style: italic;
+  font-size: 14px;
+  font-family:cursive;
+  background-color:black;
+  border-radius: 5px;
+  padding: 20px;
 }
 
 .lista-fanta {
-  color:black;
-  font-size: x-large;
-  font-family: 'gorila-blue';
   font-style: italic;
-  text-decoration:solid
+  color: whitesmoke;
+  font-style: italic;
+  font-size: 14px;
+  font-family:cursive;
+  background-color:black;
+  border-radius: 5px;
+  padding: 20px;
 }
 
 .coca-lista {
-  color:black;
-  font-size: x-large;
-  font-family: 'gorila-blue';
   font-style: italic;
-  text-decoration:solid
+  color: whitesmoke;
+  font-style: italic;
+  font-size: 14px;
+  font-family:cursive;
+  background-color:black;
+  border-radius: 5px;
+  padding: 20px;
 }
 
 .cocalight-lista {
-  color:black;
-  font-size: x-large;
-  font-family: 'gorila-blue';
   font-style: italic;
-  text-decoration:solid
+  color: whitesmoke;
+  font-style: italic;
+  font-size: 14px;
+  font-family:cursive;
+  background-color:black;
+  border-radius: 5px;
+  padding: 20px;
 }
 
 main section .caja .sub-caja h3{
@@ -317,6 +329,26 @@ main section .caja .sub-caja h6{
 }
 
 @media (max-width:600px) {
+  .conteiner .sub-conteiner p {
+    font-style: italic;
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 14px;
+    font-family:cursive;
+    background-color:black;
+    border-radius: 5px;
+  }
+
+  .conteiner .sub-conteiner h1 {
+    font-style: italic;
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 25px;
+    font-family:cursive;
+    background-color:black;
+    border-radius: 5px;
+  }
+
   .sub-conteiner p {
     font-size: 10px;
   }
@@ -330,12 +362,9 @@ main section .caja .sub-caja h6{
     border-radius: 5px;
   }
   
-  .sub-conteiner .sub h1{
-    font-size: 40px;
-  }
 
   .cabezera-pagina p {
-    font-size: 13px;
+    font-size: 10px;
   }
 
   .productos .light p {

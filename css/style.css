@@ -145,11 +145,12 @@ body {
 }
 
 .productos p {
+  color: whitesmoke;
   width: 50%;
   font-style: italic;
-  font-size: x-large;
+  font-size: 20px;
   font-family:cursive;
-  background-color:aqua;
+  background-color:#494A4D;
   border-radius: 5px;
 }
 

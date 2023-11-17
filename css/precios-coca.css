@@ -145,16 +145,6 @@ button:active {
   margin-left: 1400px;
 }
 
-.pie-pagina .div-pie .sub-div p {
-  width: 10vw;
-  height: 10vh;
-  font-size: x-large;
-  color:#DD081A;
-  font-style: italic;
-  font-family: 'gorila-blue';
-  background-color: black;
-  border-radius: 10px;
-}
 
 .pie-pagina {
   border-top: 4px solid black;
@@ -193,6 +183,7 @@ button:active {
 }
 
 .sub-container h1 {
+  font-family: serif;
   font-size: 100px;
   color: #FDFDFD;
   background-color:black;
@@ -201,6 +192,7 @@ button:active {
 }
 
 .sub-container p {
+  font-family: serif;
   color: #FDFDFD;
   font-style: italic;
   font-family: cursive;
@@ -238,31 +230,48 @@ main section div div img {
 }
 
 .lata-lista {
-  color:#494A4D;
-  font-size: 15px;
-  font-family:cursive;
   font-style: italic;
+  color: whitesmoke;
+  font-style: italic;
+  font-size: 14px;
+  font-family:cursive;
+  background-color:#494A4D;
+  border-radius: 5px;
+  padding: 20px;
 }
 
 .light-lista {
-  color:#494A4D;
-  font-size: 15px;
-  font-family:cursive;
   font-style: italic;
+  color: whitesmoke;
+  font-style: italic;
+  font-size: 14px;
+  font-family:cursive;
+  background-color:#494A4D;
+  border-radius: 5px;
+  padding: 20px;
 }
 
+
 .lista-life {
-  color:#494A4D;
-  font-size: 15px;
-  font-family:cursive;
   font-style: italic;
+  color: whitesmoke;
+  font-style: italic;
+  font-size: 14px;
+  font-family:cursive;
+  background-color:#494A4D;
+  border-radius: 5px;
+  padding: 20px;
 }
 
 .lista-zero {
-  color:#494A4D;
-  font-size: 15px;
-  font-family:cursive;
   font-style: italic;
+  color: whitesmoke;
+  font-style: italic;
+  font-size: 14px;
+  font-family:cursive;
+  background-color:#494A4D;
+  border-radius: 5px;
+  padding: 20px;
 }
 
 .lata-tit {
@@ -289,6 +298,8 @@ main section div div img {
   height: 20vh;
   border-radius: 5px;
 }
+
+
 
 @media (max-width:600px) {
   .titulo-uno {
